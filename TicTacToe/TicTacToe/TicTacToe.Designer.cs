@@ -58,6 +58,9 @@
             this.cell_0_0.Name = "cell_0_0";
             this.cell_0_0.Size = new System.Drawing.Size(99, 96);
             this.cell_0_0.TabIndex = 0;
+            this.cell_0_0.Click += new System.EventHandler(this.FillCell);
+            this.cell_0_0.MouseEnter += new System.EventHandler(this.CellMouseEnter);
+            this.cell_0_0.MouseLeave += new System.EventHandler(this.CellMouseLeave);
             // 
             // cell_0_1
             // 
@@ -66,6 +69,9 @@
             this.cell_0_1.Name = "cell_0_1";
             this.cell_0_1.Size = new System.Drawing.Size(99, 96);
             this.cell_0_1.TabIndex = 1;
+            this.cell_0_1.Click += new System.EventHandler(this.FillCell);
+            this.cell_0_1.MouseEnter += new System.EventHandler(this.CellMouseEnter);
+            this.cell_0_1.MouseLeave += new System.EventHandler(this.CellMouseLeave);
             // 
             // cell_0_2
             // 
@@ -74,6 +80,9 @@
             this.cell_0_2.Name = "cell_0_2";
             this.cell_0_2.Size = new System.Drawing.Size(99, 96);
             this.cell_0_2.TabIndex = 2;
+            this.cell_0_2.Click += new System.EventHandler(this.FillCell);
+            this.cell_0_2.MouseEnter += new System.EventHandler(this.CellMouseEnter);
+            this.cell_0_2.MouseLeave += new System.EventHandler(this.CellMouseLeave);
             // 
             // cell_1_2
             // 
@@ -82,6 +91,9 @@
             this.cell_1_2.Name = "cell_1_2";
             this.cell_1_2.Size = new System.Drawing.Size(99, 96);
             this.cell_1_2.TabIndex = 5;
+            this.cell_1_2.Click += new System.EventHandler(this.FillCell);
+            this.cell_1_2.MouseEnter += new System.EventHandler(this.CellMouseEnter);
+            this.cell_1_2.MouseLeave += new System.EventHandler(this.CellMouseLeave);
             // 
             // cell_1_1
             // 
@@ -90,6 +102,9 @@
             this.cell_1_1.Name = "cell_1_1";
             this.cell_1_1.Size = new System.Drawing.Size(99, 96);
             this.cell_1_1.TabIndex = 4;
+            this.cell_1_1.Click += new System.EventHandler(this.FillCell);
+            this.cell_1_1.MouseEnter += new System.EventHandler(this.CellMouseEnter);
+            this.cell_1_1.MouseLeave += new System.EventHandler(this.CellMouseLeave);
             // 
             // cell_1_0
             // 
@@ -98,6 +113,9 @@
             this.cell_1_0.Name = "cell_1_0";
             this.cell_1_0.Size = new System.Drawing.Size(99, 96);
             this.cell_1_0.TabIndex = 3;
+            this.cell_1_0.Click += new System.EventHandler(this.FillCell);
+            this.cell_1_0.MouseEnter += new System.EventHandler(this.CellMouseEnter);
+            this.cell_1_0.MouseLeave += new System.EventHandler(this.CellMouseLeave);
             // 
             // cell_2_2
             // 
@@ -106,6 +124,9 @@
             this.cell_2_2.Name = "cell_2_2";
             this.cell_2_2.Size = new System.Drawing.Size(99, 96);
             this.cell_2_2.TabIndex = 8;
+            this.cell_2_2.Click += new System.EventHandler(this.FillCell);
+            this.cell_2_2.MouseEnter += new System.EventHandler(this.CellMouseEnter);
+            this.cell_2_2.MouseLeave += new System.EventHandler(this.CellMouseLeave);
             // 
             // cell_2_1
             // 
@@ -114,6 +135,9 @@
             this.cell_2_1.Name = "cell_2_1";
             this.cell_2_1.Size = new System.Drawing.Size(99, 96);
             this.cell_2_1.TabIndex = 7;
+            this.cell_2_1.Click += new System.EventHandler(this.FillCell);
+            this.cell_2_1.MouseEnter += new System.EventHandler(this.CellMouseEnter);
+            this.cell_2_1.MouseLeave += new System.EventHandler(this.CellMouseLeave);
             // 
             // cell_2_0
             // 
@@ -122,6 +146,9 @@
             this.cell_2_0.Name = "cell_2_0";
             this.cell_2_0.Size = new System.Drawing.Size(99, 96);
             this.cell_2_0.TabIndex = 6;
+            this.cell_2_0.Click += new System.EventHandler(this.FillCell);
+            this.cell_2_0.MouseEnter += new System.EventHandler(this.CellMouseEnter);
+            this.cell_2_0.MouseLeave += new System.EventHandler(this.CellMouseLeave);
             // 
             // lblNewGame
             // 
@@ -214,6 +241,9 @@
             this.lblReset.TabIndex = 11;
             this.lblReset.Text = "RESET";
             this.lblReset.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblReset.Click += new System.EventHandler(this.lblReset_Click);
+            this.lblReset.MouseEnter += new System.EventHandler(this.ButtonMouseEnter);
+            this.lblReset.MouseLeave += new System.EventHandler(this.ButtonMouseLeave);
             // 
             // lblStartNewGame
             // 
@@ -229,6 +259,9 @@
             this.lblStartNewGame.TabIndex = 11;
             this.lblStartNewGame.Text = "NEW GAME";
             this.lblStartNewGame.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblStartNewGame.Click += new System.EventHandler(this.lblStartNewGame_Click);
+            this.lblStartNewGame.MouseEnter += new System.EventHandler(this.ButtonMouseEnter);
+            this.lblStartNewGame.MouseLeave += new System.EventHandler(this.ButtonMouseLeave);
             // 
             // lblPvC
             // 
@@ -242,6 +275,9 @@
             this.lblPvC.TabIndex = 11;
             this.lblPvC.Text = "Player VS Computer";
             this.lblPvC.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblPvC.Click += new System.EventHandler(this.lblPvC_Click);
+            this.lblPvC.MouseEnter += new System.EventHandler(this.ButtonMouseEnter);
+            this.lblPvC.MouseLeave += new System.EventHandler(this.ButtonMouseLeave);
             // 
             // lblPvP
             // 
@@ -255,6 +291,9 @@
             this.lblPvP.TabIndex = 11;
             this.lblPvP.Text = "Player VS Player";
             this.lblPvP.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblPvP.Click += new System.EventHandler(this.lblPvP_Click);
+            this.lblPvP.MouseEnter += new System.EventHandler(this.ButtonMouseEnter);
+            this.lblPvP.MouseLeave += new System.EventHandler(this.ButtonMouseLeave);
             // 
             // lblExit
             // 
@@ -271,8 +310,8 @@
             this.lblExit.Text = "X";
             this.lblExit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblExit.Click += new System.EventHandler(this.lblExit_Click);
-            this.lblExit.MouseEnter += new System.EventHandler(this.lblExit_MouseEnter);
-            this.lblExit.MouseLeave += new System.EventHandler(this.lblExit_MouseLeave);
+            this.lblExit.MouseEnter += new System.EventHandler(this.ButtonMouseEnter);
+            this.lblExit.MouseLeave += new System.EventHandler(this.ButtonMouseLeave);
             // 
             // TicTacToe
             // 
@@ -292,15 +331,15 @@
             this.Controls.Add(this.lblPlayer2Name);
             this.Controls.Add(this.lblPlayer1Name);
             this.Controls.Add(this.lblNewGame);
-            this.Controls.Add(this.cell_2_2);
-            this.Controls.Add(this.cell_2_1);
-            this.Controls.Add(this.cell_1_2);
-            this.Controls.Add(this.cell_2_0);
-            this.Controls.Add(this.cell_1_1);
+            this.Controls.Add(this.cell_0_0);
+            this.Controls.Add(this.cell_0_1);
             this.Controls.Add(this.cell_0_2);
             this.Controls.Add(this.cell_1_0);
-            this.Controls.Add(this.cell_0_1);
-            this.Controls.Add(this.cell_0_0);
+            this.Controls.Add(this.cell_1_1);
+            this.Controls.Add(this.cell_1_2);
+            this.Controls.Add(this.cell_2_0);
+            this.Controls.Add(this.cell_2_1);
+            this.Controls.Add(this.cell_2_2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "TicTacToe";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
