@@ -155,8 +155,11 @@ namespace TicTacToe
                     gameField[row][col] = EMPTY_CELL;
             }
         }
-        public void MakeTurnAndFillGameFieldCell(int row, int column)
+        public bool TryMakeTurnAndFillGameFieldCell(int row, int column)
         {
+            if (gameField[row][column] != EMPTY_CELL)
+                return false;
+            
             if (IsPlayer1Turn())
             {
                 gameField[row][column] = X_MARK;
@@ -170,6 +173,8 @@ namespace TicTacToe
                 gameField[row][column] = O_MARK;
                 Turn = WhooseTurn.Player1;
             }
+
+            return true;
         }
         private Cell GetHorizontalCellForAttackOrDefence(char checkMark)
         {

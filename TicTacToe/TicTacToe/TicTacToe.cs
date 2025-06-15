@@ -161,9 +161,10 @@ namespace TicTacToe
             markLabel.Text = engine.GetMarkLabelText();
             markLabel.ForeColor = System.Drawing.Color.Gray;
 
+            if (!engine.TryMakeTurnAndFillGameFieldCell(row, column))
+                return;
+            
             lblTurnPlayerName.Text = engine.GetWhooseNextTurnTitle();
-
-            engine.MakeTurnAndFillGameFieldCell(row, column);
 
             panel.Controls.Add(markLabel);
 
